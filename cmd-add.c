@@ -46,6 +46,10 @@
 #include <string.h>
 #include <errno.h>
 
+/*!
+ * githubstatstag:{ "thisIs": "functionB1" }
+ * githubstatstag:{ "thisIs": "functionB2" }
+ */
 int cmd_add(int argc, char **argv)
 {
 	unsigned char key[KDF_HASH_LEN];
