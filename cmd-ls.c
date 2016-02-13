@@ -85,7 +85,10 @@ struct path_component
 	struct list_head list;
 };
 
-/*
+/*!
+ * githubstatstag:{ "thisIs": "functionA1" }
+ * githubstatstag:{ "thisIs": "functionA2" }
+ *
  * Tokenize path and add each component to the components list.
  * For group names, the path separator is a backslash.  The path
  * string is modified in place and the component list stores
