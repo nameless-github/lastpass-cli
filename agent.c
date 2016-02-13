@@ -303,8 +303,9 @@ static void agent_start(unsigned const char key[KDF_HASH_LEN])
 
 bool agent_get_decryption_key(unsigned char key[KDF_HASH_LEN])
 {
-	//! githubstatstag:{ "thisIs": "innerVar" }
-	//! stuff
+	/*!
+	 * githubstatstag:{ "thisIs": "innerVar" }
+	 */
 	char *disable_str;
 
 	if (config_exists("plaintext_key")) {
