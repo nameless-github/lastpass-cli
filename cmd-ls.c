@@ -53,6 +53,9 @@ struct node {
 	bool shared;
 
 	struct node *first_child;
+	/*!
+	 * githubstatstag:{ "thisIs": "outerVar" }
+	 */
 	struct node *next_sibling;
 };
 
