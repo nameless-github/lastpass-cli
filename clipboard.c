@@ -41,6 +41,9 @@
 #include <sys/types.h>
 
 static pid_t clipboard_process = 0;
+
+//! githubstatstag:{ "thisIs": "outerVar" }
+//! stuff
 static int saved_stdout = -1; 
 static bool registered_closer = false;
 
@@ -67,6 +70,8 @@ void exec_command(char *command) {
 	execlp(shell, shell, "-c", command, NULL);
 }
 
+//! githubstatstag:{ "thisIs": "functionA1" }
+//! githubstatstag:{ "thisIs": "functionA2" }
 void clipboard_open(void)
 {
 	int pipefd[2];
